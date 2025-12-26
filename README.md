@@ -44,7 +44,7 @@ The schematic of the device is as shown:
 
 Note that this system only works with air conditioner units that communicate using IR. Future iterations of this device could incorporate support for other communication protocols.
 
-Once the device is assembled correctly, Arduino Uno microcontroller is connected to the PC and the Arduino IDE is configured to communicate with the board, simply upload the code to the board.
+Once the device is assembled correctly, the Arduino Uno microcontroller is connected to the PC, and the Arduino IDE is configured to communicate with the board, simply upload the code to the board. When the Arduino is powered on, the alarm is active.
 
 Once it is powered on and the air conditioner remote IR codes are successfully captured, the system will keep track of time via the RTC module. By default, the alarm time is 6:30 am. To change the time, press the OK button and use the UP and DOWN keys to change the hour, and LEFT and RIGHT keys to change the minute. Pressing OK again will save this new time.
 
